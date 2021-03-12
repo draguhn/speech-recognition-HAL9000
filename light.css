@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+	margin-top: 50px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.header, .topics {
+	width: 600px;
+	margin-bottom: 70px;
+	margin-left: 400px;
+	margin-right: 400px;
+	text-align: justify;
+}
+
+button {
+	border: 10px solid #333;
+	border-radius: 50%;
+	color: #333;
+	background-color: snow;
+	padding: 15px 15px;
+	margin-bottom: 70px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+	transition: all 0.9s;
+	/* removes the blueish outline of the button when clicking it */
+	outline: none;
+}
+
+button:hover {
+	border-radius: 50%;
+	background: snow;
+	color: #c02c22;
+}
+

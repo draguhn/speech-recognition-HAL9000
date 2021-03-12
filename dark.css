@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+	margin-top: 50px;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #333;
+  color: snow;
+}
+
+.header, .topics {
+	margin-bottom: 70px;
+	margin-left: 400px;
+	margin-right: 400px;
+	text-align: justify;
+}
+
+
+button {
+	border: 10px solid snow;
+	border-radius: 50%;
+	color: snow;
+	background-color: #333;
+	padding: 15px 15px;
+	margin-bottom: 70px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+	transition: all 0.9s;
+	/* removes the blueish outline of the button when clicking it */
+	outline: none;
+}
+
+button:hover {
+	border-radius: 50%;
+	background: #333;
+	color: #c02c22;
+}
